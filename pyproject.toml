@@ -1,0 +1,11 @@
+[project]
+name = "spanglish-backend"
+version = "0.1.0"
+description = "A DRF backend for Spanglish, a language learning app."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django>=5.2.5",
+    "djangorestframework>=3.16.1",
+    "sqlite-utils>=3.38",
+]
