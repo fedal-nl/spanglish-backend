@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     vim \
     libsqlite3-dev \
     tree \
+    ncal \
     && rm -rf /var/lib/apt/lists/*
 
 # Install uv package manager
