@@ -42,4 +42,5 @@ urlpatterns = [
 
     # Dictionary app
     path('dictionary/', include('dictionary.urls')),
+    path('quiz/', include('quiz.urls')),
 ]
